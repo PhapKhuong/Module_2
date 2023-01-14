@@ -58,8 +58,13 @@ public class Array_1 {
 
         System.out.println("Nhập vào giá trị cần thêm vào mảng");
         short add = sc.nextShort();
-        System.out.println("Nhập vào vị trí cần thêm vào mảng");
-        byte id = sc.nextByte();
+        byte id;
+        do {
+            System.out.println("Nhập vào vị trí cần thêm vào mảng");
+            id = sc.nextByte();
+        }
+        while (id >= len);
+
         for (int i = len - 1; i >= id; i--) { //Vì sao để i kiểu byte lại báo lỗi; nếu i = len, để byte không bị lỗi nữa
             if (i == id) arr[i] = add;
             else arr[i] = arr[i - 1];
