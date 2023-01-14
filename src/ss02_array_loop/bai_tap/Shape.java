@@ -87,7 +87,5 @@ public class Shape {
             }
             System.out.println("");
         }
-
-        System.out.println(5 % 2);
     }
 }
