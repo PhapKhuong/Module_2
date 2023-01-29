@@ -12,7 +12,7 @@ public class Money {
         sc = new Scanner(System.in);
         System.out.println("Nhập số tiền USD cần quy đổi: ");
         usd = sc.nextInt();
-        vnd = usd * RATE;
+        vnd = (long) usd * RATE;
         System.out.println("Số tiền VNĐ tương ứng là: " + vnd);
     }
 }

@@ -3,6 +3,9 @@ package ss02_array_loop.bai_tap;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ * Sử dụng để làm bài Xóa phần tử khỏi mảng và thêm phần tử vào mảng
+ */
 public class Array_1 {
     static short arr[];
     static Scanner sc = new Scanner(System.in);
