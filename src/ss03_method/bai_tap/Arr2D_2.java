@@ -11,6 +11,7 @@ public class Arr2D_2 {
 
     public static void main(String[] args) {
         showTotal();
+        findTotal(1);
     }
 
     public static void showTotal() {
@@ -33,12 +34,17 @@ public class Arr2D_2 {
         System.out.println("Tổng các phần tử của cột " + col + " trong mảng là: " + findTotal(col, numbers));
     }
 
-    public static double findTotal (byte num, double[][] arr) {
+    public static double findTotal(byte num, double[][] arr) {
         int r = arr.length; // Vì sao biến r chọn kiểu byte không được???????
         double total = 0;
         for (int i = 0; i < r; i++) {
             total += arr[i][num];
         }
         return total;
+    }
+
+    public static double findTotal(int num1) {
+        double num2 = num1;
+        return num2;
     }
 }
