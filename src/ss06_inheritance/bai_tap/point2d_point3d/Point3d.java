@@ -13,22 +13,6 @@ public class Point3d extends Point2d {
         this.z = z;
     }
 
-    public float getX() {
-        return super.getX();
-    }
-
-    public void setX(float newX) {
-        super.setX(newX);
-    }
-
-    public float getY() {
-        return super.getY();
-    }
-
-    public void setY(float newY) {
-        super.setY(newY);
-    }
-
     public float getZ() {
         return z;
     }
@@ -38,8 +22,8 @@ public class Point3d extends Point2d {
     }
 
     public void setXYZ(float newX, float newY, float newZ) {
-        super.setX(newX);
-        super.setY(newY);
+        this.setX(newX);
+        this.setY(newY);
         this.z = newZ;
     }
 
@@ -47,7 +31,8 @@ public class Point3d extends Point2d {
         return new float[] {this.getX(), this.getY(), this.z};
     }
 
-    public String toString () {
-        return Arrays.toString(this.getXYZ());
+    @Override
+    public String toString() {
+        return "(" + this.getX() + ", " + this.getY() + ", " + this.z + ")";
     }
 }

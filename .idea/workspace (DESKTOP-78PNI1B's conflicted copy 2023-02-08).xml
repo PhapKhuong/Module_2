@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5c9124e-259f-4a32-a817-f29a049a4219" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/ss05_static/bai_tap/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/ss05_static/bai_tap/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ss05_static/bai_tap/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ss05_static/bai_tap/Test.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2K8z3vMoql7k7FpkDL1M6f1GTTm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Answer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss04_oop.bai_tap.Answer" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss04_oop.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FanObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss04_oop.bai_tap.FanObject" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss04_oop.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student$Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss05_static.bai_tap.Student$Test" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss05_static.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss05_static.bai_tap.Test" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss05_static.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss05_static.bai_tap.TestCircle" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss05_static.bai_tap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Student$Test" />
+        <item itemvalue="Application.FanObject" />
+        <item itemvalue="Application.TestCircle" />
+        <item itemvalue="Application.Answer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c9124e-259f-4a32-a817-f29a049a4219" name="Changes" comment="" />
+      <created>1673370803216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673370803216</updated>
+      <workItem from="1673370804539" duration="1129000" />
+      <workItem from="1673374457114" duration="694000" />
+      <workItem from="1673433934274" duration="4946000" />
+      <workItem from="1673446750929" duration="503000" />
+      <workItem from="1673456979230" duration="11088000" />
+      <workItem from="1673545968053" duration="10388000" />
+      <workItem from="1673713707119" duration="8717000" />
+      <workItem from="1674150576643" duration="3213000" />
+      <workItem from="1674495587358" duration="1207000" />
+      <workItem from="1674573562131" duration="4675000" />
+      <workItem from="1675008252430" duration="29000" />
+      <workItem from="1675008800659" duration="9645000" />
+      <workItem from="1675188289255" duration="2220000" />
+      <workItem from="1675248475528" duration="5520000" />
+      <workItem from="1675355344216" duration="14127000" />
+      <workItem from="1675421150847" duration="2641000" />
+      <workItem from="1675558417235" duration="721000" />
+      <workItem from="1675582394667" duration="4026000" />
+      <workItem from="1675682528142" duration="3714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

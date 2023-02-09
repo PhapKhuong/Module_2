@@ -7,7 +7,7 @@ public class Test {
         System.out.println("Tọa độ của điểm 1 là: " + p2d.toString());
 
         // Test lớp Point3d
-        Point3d p3d = new Point3d(7, 8, 9); //Vì sao Point2d p3d = new Point3d thì xảy ra lỗi tại p3d.setZ(13)
+        Point3d p3d = new Point3d(7, 8, 9);
         System.out.println("Tọa độ của điểm 2 là: " + p3d.toString());
 
         p3d.setX(11);

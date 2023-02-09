@@ -1,8 +1,6 @@
 package ss06_inheritance.bai_tap.circle_cylinder;
 
 public class Circle {
-    public static final double PI = 3.14;
-
     private double radius;
     private String border;
     private String filler;
@@ -41,7 +39,7 @@ public class Circle {
         this.filler = newFiller;
     }
 
-    public double getArea () {
-        return PI * this.radius * this.radius;
+    public double getArea() {
+        return Math.PI * this.radius * this.radius;
     }
 }

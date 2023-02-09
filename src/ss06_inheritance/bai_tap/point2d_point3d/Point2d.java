@@ -1,7 +1,5 @@
 package ss06_inheritance.bai_tap.point2d_point3d;
 
-import java.util.Arrays;
-
 public class Point2d {
     private float x;
     private float y;
@@ -39,7 +37,8 @@ public class Point2d {
         return new float[]{this.x, this.y};
     }
 
-    public String toString () {
-        return Arrays.toString(this.getXY());
+    @Override
+    public String toString() {
+        return "(" + this.x + ", " + this.y + ")";
     }
 }
