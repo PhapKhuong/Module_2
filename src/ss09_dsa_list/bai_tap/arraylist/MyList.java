@@ -1,4 +1,4 @@
-package ss09_dsa_list.bai_tap;
+package ss09_dsa_list.bai_tap.arraylist;
 
 public class MyList<E> {
     private static final int DEFAULT_CAPACITY = 10;

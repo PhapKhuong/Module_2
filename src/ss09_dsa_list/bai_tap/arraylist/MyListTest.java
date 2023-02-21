@@ -1,4 +1,4 @@
-package ss09_dsa_list.bai_tap;
+package ss09_dsa_list.bai_tap.arraylist;
 
 import ss08_mvc.bai_tap.model.Worker;
 
