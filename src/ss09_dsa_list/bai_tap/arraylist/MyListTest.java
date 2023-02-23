@@ -63,6 +63,10 @@ public class MyListTest {
         arr.add(0, w1);
         arr.add(1, w2);
 
+        for (Worker w : arr) {
+            System.out.println(w);
+        }
+
         arr.add(w3);
 
         System.out.println(arr.contains(w1));
