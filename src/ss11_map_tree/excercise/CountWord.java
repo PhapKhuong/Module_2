@@ -21,7 +21,7 @@ public class CountWord {
         for (int i = 0; i < wordArr.length; i++) {
             if (wordTreeMap.containsKey(wordArr[i])) {
                 value = wordTreeMap.get(wordArr[i]);
-                wordTreeMap.put(wordArr[i], value+1);
+                wordTreeMap.put(wordArr[i], value + 1);
             } else {
                 wordTreeMap.put(wordArr[i], 1);
             }

@@ -79,6 +79,8 @@ public class MyListTest {
 
         System.out.println(arr);
 
+        System.out.println(arr.toArray());
+
         System.out.println(arr.get(1));
     }
 }
