@@ -4,6 +4,8 @@ import collection_framework.model.Product;
 import collection_framework.repository.ProductRepository;
 import collection_framework.repository.ProductRepositoryImpl;
 
+import java.time.LocalDate;
+
 public class ProductServiceImpl implements ProductService {
 
     public ProductServiceImpl() {
@@ -17,7 +19,7 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public void alterProduct(int id, String newName, String newOrigin, String newDateOfManufacture, long newPrice) {
+    public void alterProduct(int id, String newName, String newOrigin, LocalDate newDateOfManufacture, long newPrice) {
         repository.alterProduct(id, newName, newOrigin, newDateOfManufacture, newPrice);
     }
 

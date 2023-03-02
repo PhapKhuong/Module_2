@@ -3,6 +3,7 @@ package collection_framework.repository;
 import collection_framework.model.Product;
 import collection_framework.model.ProductSortByPrice;
 
+import java.time.LocalDate;
 import java.util.*;
 
 public class ProductRepositoryImpl implements ProductRepository {
@@ -14,11 +15,17 @@ public class ProductRepositoryImpl implements ProductRepository {
 
     // Giả thiết trong danh mục có sẵn các sản phẩm như sau:
     static {
-        Product product1 = new Product(1, "A1", "B1", "1/1/2023", 100000);
-        Product product2 = new Product(2, "A2", "B2", "2/2/2023", 50000);
-        Product product3 = new Product(3, "A3", "B3", "3/3/2023", 4000);
-        Product product4 = new Product(4, "A4", "B4", "4/4/2023", 26000);
-        Product product5 = new Product(5, "A5", "B5", "5/5/2023", 23000);
+        Product product1 = new Product(
+                1, "A1", "B1", LocalDate.of(2023,1,1), 100000);
+        Product product2 = new Product
+                (2, "A2", "B2", LocalDate.of(2023,2,2), 50000);
+        Product product3 = new Product
+                (3, "A3", "B3", LocalDate.of(2023,3,3), 4000);
+        Product product4 = new Product
+                (4, "A4", "B4", LocalDate.of(2023,4,4), 26000);
+        Product product5 = new Product
+                (5, "A5", "B5", LocalDate.of(2023,5,5), 23000);
+
         products.add(product1);
         products.add(product2);
         products.add(product3);
@@ -32,7 +39,7 @@ public class ProductRepositoryImpl implements ProductRepository {
     }
 
     @Override
-    public void alterProduct(int id, String newName, String newOrigin, String newDateOfManufacture, long newPrice) {
+    public void alterProduct(int id, String newName, String newOrigin, LocalDate newDateOfManufacture, long newPrice) {
         Product product = new Product(id, newName, newOrigin, newDateOfManufacture, newPrice);
 
         for (int i = 0; i < products.size(); i++) {

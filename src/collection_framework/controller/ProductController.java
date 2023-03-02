@@ -4,6 +4,7 @@ import collection_framework.model.Product;
 import collection_framework.service.ProductService;
 import collection_framework.service.ProductServiceImpl;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class ProductController {
@@ -47,6 +48,7 @@ public class ProductController {
 
             switch (select) {
                 case 1: //Thêm sản phẩm
+                    System.out.println("THÊM SẢN PHẨM MỚI");
                     int newID;
                     do {
                         System.out.println("Nhập ID sản phẩm (ID sản phẩm là duy nhất)");
@@ -60,7 +62,12 @@ public class ProductController {
                     String origin = sc.nextLine();
 
                     System.out.println("Nhập ngày sản xuất của sản phẩm");
-                    String dateOfManufacture = sc.nextLine();
+                    int dd = Integer.parseInt(sc.nextLine());
+                    System.out.println("Nhập tháng sản xuất của sản phẩm");
+                    int mm = Integer.parseInt(sc.nextLine());
+                    System.out.println("Nhập năm sản xuất của sản phẩm");
+                    int yyyy = Integer.parseInt(sc.nextLine());
+                    LocalDate dateOfManufacture = LocalDate.of(yyyy, mm, dd);
 
                     System.out.println("Nhập giá sản phẩm");
                     long price = Long.parseLong(sc.nextLine());
@@ -71,6 +78,7 @@ public class ProductController {
                     break;
 
                 case 2: //Sửa thông tin sản phẩm
+                    System.out.println("SỬA THÔNG TIN SẢN PHẨM");
                     System.out.println("Nhập ID sản phẩm cần chỉnh sửa thông tin:");
                     int alterID = Integer.parseInt(sc.nextLine());
 
@@ -90,19 +98,25 @@ public class ProductController {
                         System.out.println("Nhập xuất sứ mới của sản phẩm:");
                         String alterOrigin = sc.nextLine();
 
-                        System.out.println("Nhập ngày sản xuất mới của sản phẩm:");
-                        String alterDateOfManufacture = sc.nextLine();
+                        System.out.println("Nhập ngày sản xuất của sản phẩm");
+                        int alterDD = Integer.parseInt(sc.nextLine());
+                        System.out.println("Nhập tháng sản xuất của sản phẩm");
+                        int alterMM = Integer.parseInt(sc.nextLine());
+                        System.out.println("Nhập năm sản xuất của sản phẩm");
+                        int alterYYYY = Integer.parseInt(sc.nextLine());
 
                         System.out.println("Nhập đơn giá mới của sản phẩm");
                         long alterPrice = Long.parseLong(sc.nextLine());
 
-                        service.alterProduct(alterID, alterName, alterOrigin, alterDateOfManufacture, alterPrice);
+                        service.alterProduct(
+                                alterID, alterName, alterOrigin, LocalDate.of(alterYYYY, alterMM, alterDD), alterPrice);
                     } else {
                         System.out.println("Sản phẩm này không có trong danh mục!");
                     }
                     break;
 
                 case 3: //Xóa sản phẩm
+                    System.out.println("XÓA SẢN PHẨM KHỎI DANH SÁCH");
                     System.out.println("Nhập ID sản phẩm cần xóa:");
                     int deleteID = Integer.parseInt(sc.nextLine());
 
@@ -123,6 +137,7 @@ public class ProductController {
                     break;
 
                 case 4: //Hiện danh mục sản phẩm
+                    System.out.println("HIỂN THỊ DANH MỤC SẢN PHẨM");
 
                     if (productArr.length == 0) {
                         System.out.println("Chưa có sản phẩm trong danh mục!");
@@ -135,6 +150,7 @@ public class ProductController {
                     break;
 
                 case 5: //Tìm kiếm sản phẩm
+                    System.out.println("TÌM KIẾM SẢN PHẨM");
                     System.out.println("Nhập tên sản phẩm cần tìm kiếm");
                     String findName = sc.nextLine();
                     boolean checkName = false;
@@ -158,6 +174,7 @@ public class ProductController {
                     break;
 
                 case 6: //Sắp xếp sản phẩm theo giá tăng dần
+                    System.out.println("DANH SÁCH SẢN PHẨM THEO THỨ TỰ ĐƠN GIÁ TĂNG DẦN");
                     if (productArr.length == 0) {
                         System.out.println("Chưa có sản phẩm trong danh mục!");
                     } else {
@@ -171,6 +188,7 @@ public class ProductController {
                     break;
 
                 case 7: //Sắp xếp sản phẩm theo giá giảm dần
+                    System.out.println("DANH SÁCH SẢN PHẨM THEO THỨ TỰ ĐƠN GIÁ GIẢM DẦN");
                     if (productArr.length == 0) {
                         System.out.println("Chưa có sản phẩm trong danh mục!");
                     } else {
