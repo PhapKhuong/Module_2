@@ -3,6 +3,7 @@ package collection_framework.service;
 import collection_framework.model.Product;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public interface ProductService {
 
@@ -12,12 +13,12 @@ public interface ProductService {
 
     void deleteProduct(int id);
 
-    Product[] displayProduct();
+    List<Product> displayProduct();
 
-    Product[] findProduct(String name);
+    List<Product> findProduct(String name);
 
-    Product[] sortAscendingByPrice();
+    List<Product> sortAscendingByPrice();
 
-    Product[] sortDescendingByPrice();
+    List<Product> sortDescendingByPrice();
 
 }

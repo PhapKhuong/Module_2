@@ -5,6 +5,7 @@ import collection_framework.repository.ProductRepository;
 import collection_framework.repository.ProductRepositoryImpl;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class ProductServiceImpl implements ProductService {
 
@@ -29,22 +30,22 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public Product[] displayProduct() {
+    public List<Product> displayProduct() {
         return repository.displayProduct();
     }
 
     @Override
-    public Product[] findProduct(String name) {
+    public List<Product> findProduct(String name) {
         return repository.findProduct(name);
     }
 
     @Override
-    public Product[] sortAscendingByPrice() {
+    public List<Product> sortAscendingByPrice() {
         return repository.sortAscendingByPrice();
     }
 
     @Override
-    public Product[] sortDescendingByPrice() {
+    public List<Product> sortDescendingByPrice() {
         return repository.sortDescendingByPrice();
     }
 }

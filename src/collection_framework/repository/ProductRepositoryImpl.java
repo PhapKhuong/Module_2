@@ -16,15 +16,15 @@ public class ProductRepositoryImpl implements ProductRepository {
     // Giả thiết trong danh mục có sẵn các sản phẩm như sau:
     static {
         Product product1 = new Product(
-                1, "A1", "B1", LocalDate.of(2023,1,1), 100000);
+                1, "A1", "B1", LocalDate.of(2023, 1, 1), 100000);
         Product product2 = new Product
-                (2, "A2", "B2", LocalDate.of(2023,2,2), 50000);
+                (2, "A2", "B2", LocalDate.of(2023, 2, 2), 50000);
         Product product3 = new Product
-                (3, "A3", "B3", LocalDate.of(2023,3,3), 4000);
+                (3, "A3", "B3", LocalDate.of(2023, 3, 3), 4000);
         Product product4 = new Product
-                (4, "A4", "B4", LocalDate.of(2023,4,4), 26000);
+                (4, "A4", "B4", LocalDate.of(2023, 4, 4), 26000);
         Product product5 = new Product
-                (5, "A5", "B5", LocalDate.of(2023,5,5), 23000);
+                (5, "A5", "B5", LocalDate.of(2023, 5, 5), 23000);
 
         products.add(product1);
         products.add(product2);
@@ -59,46 +59,36 @@ public class ProductRepositoryImpl implements ProductRepository {
     }
 
     @Override
-    public Product[] displayProduct() {
-        Product[] productArr = new Product[products.size()];
-        return products.toArray(productArr);
+    public List<Product> displayProduct() {
+        return products;
     }
 
     @Override
-    public Product[] findProduct(String name) {
+    public List<Product> findProduct(String name) {
         List<Product> sameNameProducts = new ArrayList<>();
 
-        for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getName().equals(name)) {
-                sameNameProducts.add(products.get(i));
+        for (Product product : products) {
+            if (product.getName().equals(name)) {
+                sameNameProducts.add(product);
             }
         }
 
-        Product[] sameNameProductArr = new Product[sameNameProducts.size()];
-        return sameNameProducts.toArray(sameNameProductArr);
+        return sameNameProducts;
     }
 
     @Override
-    public Product[] sortAscendingByPrice() {
-        Collections.sort(products, new ProductSortByPrice());
+    public List<Product> sortAscendingByPrice() {
+        // Collections.sort(products, new ProductSortByPrice());
+        products.sort(new ProductSortByPrice()); // Collections.sort() có thể thay thế bằng hàm này ngắn gọn hơn
         Product[] ascendingArr = new Product[products.size()];
-        int i = 0;
-        for (Product product : products) {
-            ascendingArr[i] = product;
-            i++;
-        }
-        return ascendingArr;
+
+        return products;
     }
 
     @Override
-    public Product[] sortDescendingByPrice() {
-        Collections.sort(products, new ProductSortByPrice());
-        Product[] descendingArr = new Product[products.size()];
-        int i = 0;
-        for (Product product : products) {
-            descendingArr[products.size() - 1 - i] = product;
-            i++;
-        }
-        return descendingArr;
+    public List<Product> sortDescendingByPrice() {
+        products.sort(new ProductSortByPrice());
+        Collections.reverse(products);
+        return products;
     }
 }

@@ -5,14 +5,16 @@ import collection_framework.service.ProductService;
 import collection_framework.service.ProductServiceImpl;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class ProductController {
 
     public static Scanner sc = new Scanner(System.in);
 
-    public static boolean checkID(int id, int[] idArr) {
-        for (int i : idArr) {
+    public static boolean checkID(int id, List<Integer> numbers) {
+        for (Integer i : numbers) {
             if (id == i) {
                 return true;
             }
@@ -38,10 +40,9 @@ public class ProductController {
             System.out.println("======================================================");
             System.out.println("Xin mời lựa chọn dịch vụ!");
 
-            Product[] productArr = service.displayProduct();
-            int[] idArr = new int[productArr.length];
-            for (int i = 0; i < productArr.length; i++) {
-                idArr[i] = productArr[i].getId();
+            List<Integer> idArr = new ArrayList<>();
+            for (Product product: service.displayProduct()) {
+                idArr.add(product.getId());
             }
 
             select = Integer.parseInt(sc.nextLine());
@@ -84,8 +85,8 @@ public class ProductController {
 
                     boolean alterCheck = false;
 
-                    for (int i = 0; i < productArr.length; i++) {
-                        if (alterID == productArr[i].getId()) {
+                    for (Product product : service.displayProduct()) {
+                        if (alterID == product.getId()) {
                             alterCheck = true;
                             break;
                         }
@@ -122,8 +123,8 @@ public class ProductController {
 
                     boolean deleteCheck = false;
 
-                    for (int i = 0; i < productArr.length; i++) {
-                        if (deleteID == productArr[i].getId()) {
+                    for (Product product : service.displayProduct()) {
+                        if (deleteID == product.getId()) {
                             deleteCheck = true;
                             break;
                         }
@@ -139,11 +140,11 @@ public class ProductController {
                 case 4: //Hiện danh mục sản phẩm
                     System.out.println("HIỂN THỊ DANH MỤC SẢN PHẨM");
 
-                    if (productArr.length == 0) {
+                    if (service.displayProduct().size() == 0) {
                         System.out.println("Chưa có sản phẩm trong danh mục!");
                     } else {
                         System.out.println("Mã số - Tên sản phẩm - Xuất sứ - Ngày sản xuất - Đơn giá");
-                        for (Product product : productArr) {
+                        for (Product product : service.displayProduct()) {
                             System.out.println(product);
                         }
                     }
@@ -155,8 +156,8 @@ public class ProductController {
                     String findName = sc.nextLine();
                     boolean checkName = false;
 
-                    for (int i = 0; i < productArr.length; i++) {
-                        if (productArr[i].getName().equals(findName)) {
+                    for (Product product : service.displayProduct()) {
+                        if (product.getName().equals(findName)) {
                             checkName = true;
                             break;
                         }
@@ -164,8 +165,8 @@ public class ProductController {
 
                     if (checkName) {
                         System.out.println("Mã số - Tên sản phẩm - Xuất sứ - Ngày sản xuất - Đơn giá");
-                        Product[] findNameArr = service.findProduct(findName);
-                        for (Product product : findNameArr) {
+
+                        for (Product product : service.findProduct(findName)) {
                             System.out.println(product);
                         }
                     } else {
@@ -175,13 +176,12 @@ public class ProductController {
 
                 case 6: //Sắp xếp sản phẩm theo giá tăng dần
                     System.out.println("DANH SÁCH SẢN PHẨM THEO THỨ TỰ ĐƠN GIÁ TĂNG DẦN");
-                    if (productArr.length == 0) {
+                    if (service.displayProduct().size() == 0) {
                         System.out.println("Chưa có sản phẩm trong danh mục!");
                     } else {
                         System.out.println("Mã số - Tên sản phẩm - Xuất sứ - Ngày sản xuất - Đơn giá");
 
-                        Product[] ascendingArr = service.sortAscendingByPrice();
-                        for (Product product : ascendingArr) {
+                        for (Product product : service.sortAscendingByPrice()) {
                             System.out.println(product);
                         }
                     }
@@ -189,13 +189,12 @@ public class ProductController {
 
                 case 7: //Sắp xếp sản phẩm theo giá giảm dần
                     System.out.println("DANH SÁCH SẢN PHẨM THEO THỨ TỰ ĐƠN GIÁ GIẢM DẦN");
-                    if (productArr.length == 0) {
+                    if (service.displayProduct().size() == 0) {
                         System.out.println("Chưa có sản phẩm trong danh mục!");
                     } else {
                         System.out.println("Mã số - Tên sản phẩm - Xuất sứ - Ngày sản xuất - Đơn giá");
 
-                        Product[] descendingArr = service.sortDescendingByPrice();
-                        for (Product product : descendingArr) {
+                        for (Product product : service.sortDescendingByPrice()) {
                             System.out.println(product);
                         }
                     }
