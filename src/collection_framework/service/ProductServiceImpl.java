@@ -4,6 +4,7 @@ import collection_framework.model.Product;
 import collection_framework.repository.ProductRepository;
 import collection_framework.repository.ProductRepositoryImpl;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 
@@ -16,17 +17,29 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public void createProduct(Product product) {
-        repository.createProduct(product);
+        try {
+            repository.createProduct(product);
+        } catch (IOException e) {
+            System.out.println("Lỗi nhập xuất");
+        }
     }
 
     @Override
     public void alterProduct(int id, String newName, String newOrigin, LocalDate newDateOfManufacture, long newPrice) {
-        repository.alterProduct(id, newName, newOrigin, newDateOfManufacture, newPrice);
+        try {
+            repository.alterProduct(id, newName, newOrigin, newDateOfManufacture, newPrice);
+        } catch (IOException e) {
+            System.out.println("Lỗi nhập xuất");
+        }
     }
 
     @Override
     public void deleteProduct(int id) {
-        repository.deleteProduct(id);
+        try {
+            repository.deleteProduct(id);
+        } catch (IOException e) {
+            System.out.println("Lỗi nhập xuất");
+        }
     }
 
     @Override

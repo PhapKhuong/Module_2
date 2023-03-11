@@ -41,7 +41,7 @@ public class ProductController {
             System.out.println("Xin mời lựa chọn dịch vụ!");
 
             List<Integer> idArr = new ArrayList<>();
-            for (Product product: service.displayProduct()) {
+            for (Product product : service.displayProduct()) {
                 idArr.add(product.getId());
             }
 
@@ -74,7 +74,6 @@ public class ProductController {
                     long price = Long.parseLong(sc.nextLine());
 
                     Product newProduct = new Product(newID, name, origin, dateOfManufacture, price);
-
                     service.createProduct(newProduct);
                     break;
 

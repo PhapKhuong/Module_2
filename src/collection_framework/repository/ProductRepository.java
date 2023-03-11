@@ -2,16 +2,18 @@ package collection_framework.repository;
 
 import collection_framework.model.Product;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 
 public interface ProductRepository {
 
-    void createProduct(Product product);
+    void createProduct(Product product) throws IOException;
 
-    void alterProduct(int id, String newName, String newOrigin, LocalDate newDateOfManufacture, long newPrice);
+    void alterProduct(int id, String newName, String newOrigin,
+                      LocalDate newDateOfManufacture, long newPrice) throws IOException;
 
-    void deleteProduct(int id);
+    void deleteProduct(int id) throws IOException;
 
     List<Product> displayProduct();
 
