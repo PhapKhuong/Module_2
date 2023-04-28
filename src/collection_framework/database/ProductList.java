@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProductList {
-    public static final String FILE_PATH = "C:\\Dropbox\\Codegym\\PhapKhuong_Module2\\src\\collection_framework\\database\\product.csv";
+    public static final String FILE_PATH = "C:\\Dropbox\\Codegym\\Module2\\src\\collection_framework\\database\\product.csv";
 
     public static List<Product> readCSV() throws IOException {
         // FileNotFoundException được extend từ IOException
