@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5c9124e-259f-4a32-a817-f29a049a4219" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/controller/ProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/repository/ProductRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/service/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/collection_framework/service/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/ss14_exception/excercise/TestTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhapKhuong_Module2/ss14_exception/excercise/TestTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection_framework/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection_framework/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection_framework/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection_framework/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection_framework/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection_framework/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection_framework/repository/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection_framework/repository/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection_framework/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection_framework/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection_framework/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection_framework/service/ProductServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2K8z3vMoql7k7FpkDL1M6f1GTTm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PhapKhuong_Example" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Dropbox\Codegym\PhapKhuong_Module2\src\database" />
+      <recent name="C:\Dropbox\Codegym\PhapKhuong_Module2\src\ss15_io_text_file\practice" />
+      <recent name="C:\Dropbox\Codegym\PhapKhuong_Module2\src\ss14_exception\practice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProductController">
+    <configuration name="CharInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss12_search.excercise.complexity.CharInString" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss12_search.excercise.complexity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_exception.practice.DemoException" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14_exception.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss13_sort.excercise.InsertionSort" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss13_sort.excercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection_framework.controller.ProductController" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection_framework.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ss14_exception.excercise.TestTriangle" />
+      <module name="PhapKhuong_Module2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ss14_exception.excercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProductController" />
+        <item itemvalue="Application.TestTriangle" />
+        <item itemvalue="Application.DemoException" />
+        <item itemvalue="Application.CharInString" />
+        <item itemvalue="Application.InsertionSort" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c9124e-259f-4a32-a817-f29a049a4219" name="Changes" comment="" />
+      <created>1673370803216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673370803216</updated>
+      <workItem from="1673370804539" duration="1129000" />
+      <workItem from="1673374457114" duration="694000" />
+      <workItem from="1673433934274" duration="4946000" />
+      <workItem from="1673446750929" duration="503000" />
+      <workItem from="1673456979230" duration="11088000" />
+      <workItem from="1673545968053" duration="10388000" />
+      <workItem from="1673713707119" duration="8717000" />
+      <workItem from="1674150576643" duration="3213000" />
+      <workItem from="1674495587358" duration="1207000" />
+      <workItem from="1674573562131" duration="4675000" />
+      <workItem from="1675008252430" duration="29000" />
+      <workItem from="1675008800659" duration="9645000" />
+      <workItem from="1675188289255" duration="2220000" />
+      <workItem from="1675248475528" duration="5520000" />
+      <workItem from="1675355344216" duration="14127000" />
+      <workItem from="1675421150847" duration="2641000" />
+      <workItem from="1675558417235" duration="721000" />
+      <workItem from="1675582394667" duration="4026000" />
+      <workItem from="1675682528142" duration="2998000" />
+      <workItem from="1675787753360" duration="9182000" />
+      <workItem from="1675853373158" duration="5548000" />
+      <workItem from="1675961903560" duration="13833000" />
+      <workItem from="1676012540607" duration="3039000" />
+      <workItem from="1676026992888" duration="6080000" />
+      <workItem from="1676285114369" duration="1996000" />
+      <workItem from="1676316051347" duration="265000" />
+      <workItem from="1676392168712" duration="877000" />
+      <workItem from="1676393328562" duration="135000" />
+      <workItem from="1676457873322" duration="7238000" />
+      <workItem from="1676489723384" duration="3133000" />
+      <workItem from="1676631411189" duration="5101000" />
+      <workItem from="1676661871413" duration="1723000" />
+      <workItem from="1676665747401" duration="450000" />
+      <workItem from="1676712520635" duration="29000" />
+      <workItem from="1676712577623" duration="40000" />
+      <workItem from="1676712787350" duration="107000" />
+      <workItem from="1676739888688" duration="4097000" />
+      <workItem from="1676770618971" duration="8735000" />
+      <workItem from="1676790592695" duration="4912000" />
+      <workItem from="1676825501923" duration="12902000" />
+      <workItem from="1676869543837" duration="4390000" />
+      <workItem from="1676890111037" duration="5947000" />
+      <workItem from="1676989631212" duration="1552000" />
+      <workItem from="1676994310797" duration="13189000" />
+      <workItem from="1677042441133" duration="3263000" />
+      <workItem from="1677062577412" duration="13247000" />
+      <workItem from="1677169005937" duration="9182000" />
+      <workItem from="1677215351853" duration="3667000" />
+      <workItem from="1677236040232" duration="10726000" />
+      <workItem from="1677252312624" duration="6853000" />
+      <workItem from="1677313408230" duration="10695000" />
+      <workItem from="1677352677465" duration="664000" />
+      <workItem from="1677374845847" duration="11428000" />
+      <workItem from="1677428858268" duration="15208000" />
+      <workItem from="1677495548990" duration="6749000" />
+      <workItem from="1677608793338" duration="5950000" />
+      <workItem from="1677668128239" duration="5551000" />
+      <workItem from="1677680793322" duration="122000" />
+      <workItem from="1677772126217" duration="1089000" />
+      <workItem from="1677775549092" duration="2537000" />
+      <workItem from="1677778220052" duration="152000" />
+      <workItem from="1677778500317" duration="1627000" />
+      <workItem from="1677841062551" duration="405000" />
+      <workItem from="1677841598321" duration="2095000" />
+      <workItem from="1677944978815" duration="605000" />
+      <workItem from="1677979605775" duration="8680000" />
+      <workItem from="1677999938737" duration="4781000" />
+      <workItem from="1678024499043" duration="4845000" />
+      <workItem from="1678100062501" duration="10998000" />
+      <workItem from="1678274472566" duration="5976000" />
+      <workItem from="1678291712842" duration="4198000" />
+      <workItem from="1678382882983" duration="4176000" />
+      <workItem from="1678426952363" duration="883000" />
+      <workItem from="1678450538966" duration="3003000" />
+      <workItem from="1678484408986" duration="4212000" />
+      <workItem from="1678519563788" duration="7050000" />
+      <workItem from="1678533606890" duration="1370000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/ss07_abstraction_interface/bai_tap/Module_2" />
+      <path value="$PROJECT_DIR$/src/ss07_abstraction_interface/bai_tap/apj-shape" />
+      <path value="$PROJECT_DIR$/apj-shape" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss12_search/excercise/binary_searching/BinarySearching.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss12_search/excercise/binary_searching/BinarySearching.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss14_exception/practice/DemoException.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ss14_exception/practice/DemoException.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ss14_exception/practice/DemoException.java</url>
+          <line>9</line>
+          <properties class="ss14_exception.practice.DemoException" method="readFile">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
